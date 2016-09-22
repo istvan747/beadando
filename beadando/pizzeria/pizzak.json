@@ -1,0 +1,51 @@
+[{
+	"nev": "Margarita",
+	"feltet": ["Paradicsomszósz", "mozzarella", "friss paradicsom", "bazsalikom", "oregano"],
+	"ar32": 1390,
+	"ar50": 3290
+}, {
+	"nev": "Négysajtos",
+	"feltet": ["Paradicsomos alap", "Trappista", "Camembert", "füstölt és márványsajt"],
+	"ar32": 1390,
+	"ar50": 3290
+}, {
+	"nev": "Hawaii",
+	"feltet": ["Paradicsomszósz", "mozzarella", "sonka", "ananász"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Szalámis pizza",
+	"feltet": ["Paradicsomszósz", "mozzarella", "szalámi"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Pizza Vega",
+	"feltet": ["Paradicsomos alap", "sajt", "brokkoli", "karﬁol", "kukorica", "borsó", "paradicsom"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Magyaros",
+	"feltet": ["Paradicsomszósz", "mozzarella", "szalámi", "hagyma", "erőspaprika"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Négy évszak",
+	"feltet": ["Paradicsomszósz", "mozzarella", "sonka", "gomba", "szalámi", "articsóka"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Mexikói pizza",
+	"feltet": ["Paradicsomalap", "sajt", "bab", "kukorica", "chilli", "szalámi"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Pepperoni",
+	"feltet": ["Paradicsomszósz", "sajt", "sonka", "szalámi", "pepperoni", "kukorica"],
+	"ar32": 1450,
+	"ar50": 3390
+}, {
+	"nev": "Pizza Vulkán",
+	"feltet": ["Erős alap", "bacon", "sajt", "erős paprika"],
+	"ar32": 1450,
+	"ar50": 3390
+}]
