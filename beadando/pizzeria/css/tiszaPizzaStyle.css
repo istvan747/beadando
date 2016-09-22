@@ -1,0 +1,6 @@
+div#header{
+	width: 800px;
+	height : 200px;
+	margin: auto;
+	background-image: url("../images/header.png");
+}
