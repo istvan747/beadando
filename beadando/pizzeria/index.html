@@ -4,7 +4,34 @@
 		<title>TiszaPizzéria</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/tiszaPizzaStyle.css">
-		<script type="text/JavaScript" href="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#nav li a").each(function(){					
+					$(this).click(function(event){
+						event.preventDefault();
+						$("#content").load($(this).attr("href"));
+						if($(this).attr("href") == "pizzak.html"){
+							$.getJSON('pizzak.json',function(data){
+								$.each(data,function(key,val){
+									$("#pizzak").append(
+										'<div class=\"pizza\"><div class=\"nev">'
+										+val["nev"]
+										+'</div><div class=\"feltetek">'
+										+val["feltet"]
+										+'</div><div class=\"ar32">'
+										+val["ar32"]
+										+'</div><div class=\"ar50">'
+										+val["ar50"]
+										+'</div></div>'
+									);
+								});
+							});
+						}
+					});
+				});
+			});
+		</script>		
 	</head>
 	<body>
 		<div id="header">

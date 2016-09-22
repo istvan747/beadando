@@ -11,12 +11,15 @@ div#nav{
 	font-size:	24px;
 	width: 800px;
 	height: auto; 
-	margin: auto; 
+	margin: 5px auto; 
 }
 
 div#nav ul{
+	width: 800px;
 	padding: 0px;
 	margin: 0px;
+	float: left;
+	border-bottom: 1px solid #000000;
 }
 
 div#nav li{
@@ -33,5 +36,59 @@ div#nav a{
 }
 
 div#nav a:hover{
-	text-decoration: underline;
+	text-shadow: 5px 5px 5px #333333;
+}
+
+div#content{
+	width: 800px;
+	height: auto;
+	margin: auto;
+	padding: 20px 0px 10px 0px;
+	font-family: Myriad Pro,Verdana,Arial;
+}
+
+div#pizzak, div.pizza{
+	width: 800px;
+	height: auto;
+	float: left;
+}
+
+div.pizza{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #000000;
+}
+
+.nev{
+	width: 600px;
+	height: auto;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+}
+
+.feltetek{
+	width: 600px;
+	height: auto;
+	font-size: 14px;
+	float: left;
+}
+
+.ar32, .ar50{
+	width: 100px;
+	float: left;
+}
+
+#fejlec-pizza, #fejlec-32cm, #fejlec-50cm{
+	font-size: 20px;
+	float: left;
+	height: auto;
+}
+
+#fejlec-pizza{
+	width: 600px;
+	text-align: center;
+}
+
+#fejlec-32cm, #fejlec-50cm{
+	width: 100px;
 }
