@@ -3,6 +3,7 @@ div#header{
 	height : 200px;
 	margin: auto;
 	background-image: url("../images/header.png");
+	box-shadow: 3px 3px 6px #333333;
 }
 
 div#nav{
@@ -27,6 +28,7 @@ div#nav li{
 
 div#nav a{
 	text-decoration: none;
+	text-shadow: 3px 3px 3px #333333;
 	color: #000000;
 }
 
