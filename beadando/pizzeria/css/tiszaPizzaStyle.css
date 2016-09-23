@@ -45,16 +45,17 @@ div#content{
 	margin: auto;
 	padding: 20px 0px 10px 0px;
 	font-family: Myriad Pro,Verdana,Arial;
+	font-size: 14px;
 }
 
 div#pizzak, div.pizza{
 	width: 800px;
 	height: auto;
 	float: left;
+	margin-top: 15px;
 }
 
 div.pizza{
-	margin-bottom: 15px;
 	border-bottom: 1px solid #000000;
 }
 
@@ -69,7 +70,6 @@ div.pizza{
 .feltetek{
 	width: 600px;
 	height: auto;
-	font-size: 14px;
 	float: left;
 }
 
@@ -104,13 +104,14 @@ div#bemutatkozo-szoveg h1{
 	font-size: 16px;
 }
 
-div#bemutatkozo-szoveg p{
-	font-size: 14px;
-}
-
 div#kepek{
 	float: right;
 	width: 340px;
 	height: auto;
 	margin-top: 10px;
+}
+
+table#elerhetosseg{
+	margin-top: 20px;
+	text-align: left;
 }
