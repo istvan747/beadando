@@ -92,3 +92,25 @@ div.pizza{
 #fejlec-32cm, #fejlec-50cm{
 	width: 100px;
 }
+
+div#bemutatkozo-szoveg{
+	width: 440px;
+	padding: 10px;
+	float: left;
+	text-align: justify;
+}
+
+div#bemutatkozo-szoveg h1{
+	font-size: 16px;
+}
+
+div#bemutatkozo-szoveg p{
+	font-size: 14px;
+}
+
+div#kepek{
+	float: right;
+	width: 340px;
+	height: auto;
+	margin-top: 10px;
+}
