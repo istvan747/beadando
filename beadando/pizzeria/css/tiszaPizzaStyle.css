@@ -2,6 +2,8 @@ div#web-content{
 	width: 800px;
 	height: auto;
 	margin: auto;
+	font-family: Myriad Pro,Verdana,Arial;
+	font-size: 14px;
 }
 
 div#header{
@@ -13,7 +15,6 @@ div#header{
 }
 
 div#nav{
-	font-family: Myriad Pro,Verdana,Arial;
 	font-size:	24px;
 	width: 800px;
 	height: auto; 
@@ -50,8 +51,6 @@ div#content{
 	width: 800px;
 	height: auto;
 	padding: 10px 0px;
-	font-family: Myriad Pro,Verdana,Arial;
-	font-size: 14px;
 	float: left;
 }
 
@@ -124,7 +123,9 @@ table#elerhetosseg{
 }
 
 div#footer{
-	width: 800px;
+	width: 780px;
+	padding: 10px;
+	font-size: 12px;
 	height: auto;
 	float: left;	
 }
