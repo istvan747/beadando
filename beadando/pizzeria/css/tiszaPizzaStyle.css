@@ -1,9 +1,15 @@
+div#web-content{
+	width: 800px;
+	height: auto;
+	margin: auto;
+}
+
 div#header{
 	width: 800px;
 	height : 200px;
-	margin: auto;
 	background-image: url("../images/header.png");
 	box-shadow: 3px 3px 6px #333333;
+	float: left;
 }
 
 div#nav{
@@ -12,6 +18,7 @@ div#nav{
 	width: 800px;
 	height: auto; 
 	margin: 5px auto; 
+	float: left;
 }
 
 div#nav ul{
@@ -42,10 +49,10 @@ div#nav a:hover{
 div#content{
 	width: 800px;
 	height: auto;
-	margin: auto;
-	padding: 20px 0px 10px 0px;
+	padding: 10px 0px;
 	font-family: Myriad Pro,Verdana,Arial;
 	font-size: 14px;
+	float: left;
 }
 
 div#pizzak, div.pizza{
@@ -114,4 +121,10 @@ div#kepek{
 table#elerhetosseg{
 	margin-top: 20px;
 	text-align: left;
+}
+
+div#footer{
+	width: 800px;
+	height: auto;
+	float: left;	
 }
